@@ -37,7 +37,7 @@ range = str(initial_date) + " " + str(final_date)
 
 print('Range: ' + range)
 
-with open('editoras-counter5.csv') as csvfile:
+with open('C:\\Users\\marce\\Documents\\Programação\\Python\\Pycounter\\Arquivos\\sushi-credentials\\editoras-counter5.csv') as csvfile:
     readCSV = csv.reader(csvfile, delimiter=';')
     print('Lendo CSV')
     
@@ -69,10 +69,11 @@ with open('editoras-counter5.csv') as csvfile:
             )
 
         print(type(resultado))
+        print(resultado)
 
         object_report = pycounter.sushi5.raw_to_full(resultado)
         print(type(object_report))
-        path = "C:\\Users\\marce\\Documents\\Novapasta\\" + costumerNumber + ".tsv"
+        path = "C:\\Users\\marce\\Documents\\Programação\\Python\\Pycounter\\Arquivos\\Estatísticas" + costumerNumber + ".tsv"
 
         print("Escrevendo dados em arquivo\n \n \n---------------\n \n")
                 

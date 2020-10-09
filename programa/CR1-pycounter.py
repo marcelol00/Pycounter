@@ -48,7 +48,19 @@ with open('editoras-CR.csv') as csvfile:
 
         print("Em progresso")
         log = str(now) + "Em progresso\n"
-        resultado = pycounter.sushi.get_sushi_stats_raw(sushiURL,initial_date,final_date,requestorID,"Capes1",None,costumerNumber,None,"CR1",4,False,True)
+        resultado = pycounter.sushi.get_sushi_stats_raw(
+            sushiURL,initial_date,
+            final_date,
+            requestorID,
+            "Capes1",
+            None,
+            costumerNumber,
+            None,
+            "CR1",
+            4,
+            False,
+            True
+            )
         print("Concluído")
         log = str(now) + "Concluído \n"
         resultado = str(resultado)

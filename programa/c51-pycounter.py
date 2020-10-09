@@ -60,7 +60,20 @@ with open('editoras-counter5.csv') as csvfile:
 
         print("Em progresso")
         log = str(now) + "Em progresso\n"
-        resultado = pycounter.sushi.get_sushi_stats_raw(sushiURL,initial_date,final_date,requestorID,"Capes1",None,costumerNumber,None,"JR1",4,False,True)
+        resultado = pycounter.sushi.get_sushi_stats_raw(
+            sushiURL,
+            initial_date,
+            final_date,
+            requestorID,
+            "Capes1",
+            None,
+            costumerNumber,
+            None,
+            "JR1",
+            4,
+            False,
+            True
+            )
         print(resultado)
 
         path = "C\:\\Users\\marce\\Documents"

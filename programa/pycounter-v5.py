@@ -33,6 +33,8 @@ final_day = 31
 initial_date = datetime.date(int(initial_year), int(initial_month), int(initial_day))
 final_date = datetime.date(int(final_year), int(final_month), int(final_day))
 
+
+
 range = str(initial_date) + " " + str(final_date)
 
 print('Range: ' + range)
@@ -56,7 +58,8 @@ with open('C:\\Users\\marce\\Documents\\Programação\\Python\\Pycounter\\Arquiv
         print('Harvesting editora: ' + publisher + costumerNumber)
         print("Em progresso")
         resultado = pycounter.sushi5.get_sushi_stats_raw(
-            None,initial_date,
+            None,
+            initial_date,
             final_date,
             requestorID,
             costumerNumber,

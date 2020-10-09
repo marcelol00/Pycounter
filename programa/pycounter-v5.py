@@ -76,7 +76,7 @@ with open('C:\\Users\\marce\\Documents\\Programação\\Python\\Pycounter\\Arquiv
 
         object_report = pycounter.sushi5.raw_to_full(resultado)
         print(type(object_report))
-        path = "C:\\Users\\marce\\Documents\\Programação\\Python\\Pycounter\\Arquivos\\Estatísticas" + costumerNumber + ".tsv"
+        path = "C:\\Users\\marce\\Documents\\Programação\\Python\\Pycounter\\Arquivos\\Estatísticas\\" + costumerNumber + ".tsv"
 
         print("Escrevendo dados em arquivo\n \n \n---------------\n \n")
                 

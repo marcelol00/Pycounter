@@ -51,7 +51,7 @@ def getSushiStats(credentialFile):
                 print(type(objectCounterReport))
 
                 ## Caminho para a pasta onde será gravada o TSV na função write_tsv()
-                pathToTSVfile = "C:\\Users\\marce\\Documents\\Programação\\Python\\Pycounter\\Arquivos\\Estatísticas\\" + publisher + " - " + costumerNumber + " - " + ".tsv"
+                pathToTSVfile = "C:\\Users\\marcelo\\Documents\\Programação\\Python\\Pycounter\\Arquivos\\Estatísticas\\" + publisher + " - " + costumerNumber + " - " + ".tsv"
                 
                 print("Escrevendo dados em arquivo\n---------------\n")
                 print(pathToTSVfile)

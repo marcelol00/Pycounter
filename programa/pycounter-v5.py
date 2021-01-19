@@ -51,7 +51,7 @@ def getSushiStats(credentialFile):
                 print(type(objectCounterReport))
 
                 ## Caminho para a pasta onde será gravada o TSV na função write_tsv()
-                pathToTSVfile = "C:\\Users\\marcelo\\Documents\\Programação\\Python\\Pycounter\\Arquivos\\Estatísticas\\" + publisher + " - " + costumerNumber + " - " + ".tsv"
+                pathToTSVfile = "C:\\Users\\marcelo\\Documents\\programas\\Python\\Pycounter\\Arquivos\\Estatísticas\\" + publisher + " - " + costumerNumber + " - " + ".tsv"
                 
                 print("Escrevendo dados em arquivo\n---------------\n")
                 print(pathToTSVfile)
@@ -103,9 +103,9 @@ print('Range: ' + range)
 reportType = "TR_J1"
 print(reportType + "\n\n")
 
-pathToCredentials = "C:\\Users\\marce\\Documents\\Programação\\Python\\Pycounter\\Arquivos\\sushi-credentials\\" 
+pathToCredentials = "C:\\Users\\marcelo\\Documents\\programas\\Python\\Pycounter\\Arquivos\\sushi-credentials\\" 
 
-pathToFiles = "C:\\Users\\marce\\Documents\\Programação\\Python\\Pycounter\\Arquivos\\Estatísticas\\"
+pathToFiles = "C:\\Users\\marcelo\\Documents\\programas\\Python\\Pycounter\\Arquivos\\Estatísticas\\"
 
 siglaDaEditora = "APA" ## input("Qual a sigla da editora? ")
 
